@@ -1,0 +1,213 @@
+html, body {
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+header{
+    padding:35px 0;
+    background-image:url(/tree.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-top:solid 16px #423f4f;
+     }
+
+h1.greeting{
+    text-align:center;
+    color:white;
+    font-family:"open Sans","Helvetica Neue", sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    font-size:30px;
+    letter-spacing:0px;
+    text-shadow: 0px 0px 8px #423f4f
+        }
+p{
+    text-align:justify;
+    margin-left:2vw;
+    margin-right:2vw;
+    font-family: 'Raleway', sans-serif;
+          }
+          
+h2{
+    margin-left:2vw;
+    font-family: 'Raleway', sans-serif;
+          }
+          
+h3{
+    font-family: 'Raleway', sans-serif;
+          }
+
+.heading{
+    margin-left:2vw;
+          }       
+
+.blue{
+   color:blue;
+   font-size:20px;
+        }       
+
+.social{
+    font-size:5.35vw;
+    display:inline-block;
+    margin-left:10vw;
+    margin-right:10vw;
+       }
+  
+footer{
+    display:inline-block;
+    background-color:lightgreen;
+    bottom:0;
+    left:0;
+    right:0;
+    height:110px;
+    width:100vw;
+    text-align:center;
+          }
+
+ul{
+    display:inline-block;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+        }
+        
+li{
+    display:inline-block;
+        }
+        
+li a{
+    text-align:center;
+    padding:8px;
+    font-weight:bold;
+    font-size:14px;
+     }  
+
+li a:hover{
+   background-color:yellow;
+}
+             
+#div1{
+  display:grid;
+  place-content:center;
+  }
+
+  @media (min-width:320px){
+
+h1.greeting{
+   font-size:40px;
+       }
+
+
+footer{
+    height:150px;
+      }
+
+li a{
+    padding:12px;
+    font-size:19px;
+     }
+
+.social{
+    font-size:20px;
+      } 
+        }
+
+
+@media (min-width:768){
+  
+    header{
+    padding:90px 0;
+       }
+
+  h1.greeting{
+    font-size:65px;
+       }
+  
+  p{
+    margin-left:15vw;
+    margin-right:15vw;
+    font-family:'Alegreya Sans', sans-serif;
+    font-size:19px;
+  }      
+  
+  h2{
+    margin-left:15vw;
+    font-family: 'Alegreya Sans', sans-serif;
+       }
+          
+  h3{
+    margin-left:15vw;
+    font-family:'Alegreya Sans', sans-serif;
+          } 
+    
+   .heading{
+    margin-left:15vw  
+        }
+    
+li{
+    padding:5px;
+    display:flex;
+          }
+           
+.social{
+    margin-left:10vw;
+    margin-right:10vw;
+        }        
+        
+footer{
+    height:180px;
+    margin-bottom:500px;
+      } 
+        }
+ 
+@media (min-width:1200px){
+  *{
+  font-family:'Alegreya Sans', sans-serif;
+        }
+    
+header{
+   padding:80px 0;
+        }
+
+h1.greeting{ 
+    font-size:96px;    
+         } 
+    
+p{
+    margin-left:33.33vw;
+    margin-right:33.33vw;
+        }
+    
+h2{
+    margin-left:33.33vw;
+        }
+    
+h3{
+     margin-left:33.33vw;
+     }
+        
+.heading{
+     margin-left:33.33vw;
+     }
+        
+::-webkit-scrollbar{
+      width:1.5vw;
+      }
+        
+::-webkit-scrollbar-track{
+     background-color:darkgreen;
+     border-radius:0.8vw;
+     } 
+        
+::-webkit-scrollbar-thumb{
+     background-color:lightgreen;
+     border-radius:3vw;
+     border:6px solid transparent;
+     background-clip:content-box;
+     }   
+        
+::-webkit-scrollbar-thumb:hover{
+     background-color:yellow;
+     }
+      }
