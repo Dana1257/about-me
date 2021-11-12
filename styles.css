@@ -5,7 +5,7 @@ html, body {
 
 header{
     padding:35px 0;
-    background-image:url(tree.jpg);
+    background-image:url(https://raw.githubusercontent.com/Dana1257/about-me/main/tree.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     border-top:solid 16px #423f4f;
