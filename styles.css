@@ -1,7 +1,7 @@
 html, body {
     max-width:100%;
     overflow-x:hidden;
-}
+    }
 
 header{
     padding:35px 0;
@@ -95,7 +95,7 @@ li a:hover{
   @media (min-width:320px){
 
 h1.greeting{
-   font-size:115px;
+   font-size:40px;
        }
 
 
@@ -113,54 +113,64 @@ li a{
       } 
         }
 
+@media (min-width:768px){
 
-@media (min-width:768){
-  
-    header{
-    padding:90px 0;
+  html,body{
+    height:100%;
+    position:relative;
+    margin-bottom: 0;
+      }
+
+  header{
+    padding:100px 0;
        }
 
   h1.greeting{
-    font-size:45px;
+    font-size:65px;
        }
   
   p{
-    margin-left:15vw;
-    margin-right:15vw;
+    margin-left:1vw;
+    margin-right:1vw;
     font-family:'Alegreya Sans', sans-serif;
     font-size:19px;
   }      
   
   h2{
-    margin-left:15vw;
+    margin-left:1vw;
     font-family: 'Alegreya Sans', sans-serif;
        }
           
   h3{
-    margin-left:15vw;
+    margin-left:1vw;
     font-family:'Alegreya Sans', sans-serif;
           } 
     
    .heading{
-    margin-left:15vw  
+    margin-left:1vw  
         }
+
+li a{
+    font-size:30px;
+    }
     
 li{
     padding:5px;
-    display:flex;
-          }
+  }
+    
            
 .social{
     margin-left:10vw;
     margin-right:10vw;
+    font-size:25px;
         }        
         
 footer{
-    height:180px;
-    margin-bottom:500px;
-      } 
+    height:140px;
+    width:100%;
+          } 
         }
- 
+        
 @media (min-width:1200px){
   *{
   font-family:'Alegreya Sans', sans-serif;
